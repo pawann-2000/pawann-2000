@@ -13,7 +13,7 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: pawann-2000
-          template: terminal
+          template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Kolkata
           plugin_achievements: yes
